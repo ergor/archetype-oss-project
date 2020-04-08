@@ -11,5 +11,11 @@
         <fileSet>
             <directory>src/test/java</directory>
         </fileSet>
+        <fileSet filtered="false" packaged="false">
+            <directory/>
+            <includes>
+                <include>.gitignore</include>
+            </includes>
+        </fileSet>
     </fileSets>
 </archetype-descriptor>
